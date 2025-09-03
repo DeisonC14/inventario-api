@@ -14,6 +14,7 @@ import com.almacen.service.CategoriaService;
 
 import jakarta.validation.Valid;
 
+@CrossOrigin(origins =  "http://localhost:3000")
 @RestController
 @RequestMapping("api/categoria")
 public class CategoriaController {

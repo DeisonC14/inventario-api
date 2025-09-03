@@ -17,6 +17,7 @@ import com.almacen.service.ClienteService;
 
 import jakarta.validation.Valid;
 
+@CrossOrigin(origins =  "http://localhost:3000")
 @RestController
 @RequestMapping("api/cliente")
 public class ClienteController {

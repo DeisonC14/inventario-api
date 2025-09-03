@@ -13,7 +13,7 @@ import com.almacen.respose.ApiResponse;
 import com.almacen.service.ProveedorService;
 import jakarta.validation.Valid;
 
-
+@CrossOrigin(origins =  "http://localhost:3000")
 @RestController
 @RequestMapping("api/proveedor")
 public class ProveedorController {

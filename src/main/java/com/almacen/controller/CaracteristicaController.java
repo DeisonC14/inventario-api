@@ -14,6 +14,7 @@ import com.almacen.service.CaracteristicaService;
 
 import jakarta.validation.Valid;
 
+@CrossOrigin(origins =  "http://localhost:3000")
 @RestController
 @RequestMapping("api/caracteristica")
 public class CaracteristicaController {
